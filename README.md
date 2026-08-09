@@ -3,7 +3,7 @@
 <!------------------------------------------------------------------------------>
 
 <p align="center">
-  <img src="./assets/metapassav_logo.svg" alt="MetaPassAV Logo" width="850">
+  <img src="./assets/metapassav_logo.png" alt="MetaPassAV Logo" width="850">
 </p>
 
 <p align="center">
