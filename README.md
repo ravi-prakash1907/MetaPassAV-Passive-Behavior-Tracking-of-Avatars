@@ -1,5 +1,20 @@
 # **MetaPassAV:** Passive Behavior Tracking of Avatars
 
+<!------------------------------------------------------------------------------>
+
+<p align="center">
+  <img src="metapassav_logo.svg" alt="MetaPassAV Logo" width="850">
+</p>
+
+<p align="center">
+  An anonymized behavioral authentication dataset based on passive avatar kinematics
+  in an immersive virtual environment.
+</p>
+
+<!------------------------------------------------------------------------------>
+
+
+
 ## Overview
 
 This repository provides an anonymized behavioral authentication dataset collected in a custom virtual art gallery using Meta Quest 2. This timeseries data was collected by tracking the passive behavioral kinematics of avatars (AVs) in custom immersive metaverse environment. The participants were seated and allowed to freely explore the virtual gallery without any assigned task. The dataset is intended for research in behavioral authentication, user identification, and related fields.  
