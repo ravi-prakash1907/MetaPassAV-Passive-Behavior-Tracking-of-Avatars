@@ -1,8 +1,0 @@
-title: MetaPassAV
-description: An anonymized behavioral authentication dataset based on **passive avatar** kinematics in a **metaverse** environment.
-show_downloads: true
-theme: jekyll-theme-merlot
-github:
-  zip_url: https://github.com/ravi-prakash1907/MetaPassAV-Passive-Behavior-Tracking-of-Avatars/zipball/release
-  tar_url: https://github.com/ravi-prakash1907/MetaPassAV-Passive-Behavior-Tracking-of-Avatars/tarball/release
-  # another_url: https://ravi-prakash1907.gitlab.io/

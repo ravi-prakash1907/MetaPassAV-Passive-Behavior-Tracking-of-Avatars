@@ -1,18 +1,7 @@
 # **MetaPassAV:** Passive Behavior Tracking of Avatars
 
-<!------------------------------------------------------------------------------>
 
-<p align="center">
-  <img src="./assets/metapassav_logo.svg" alt="MetaPassAV Logo" width="850">
-</p>
-
-<p align="center">
-  An anonymized behavioral authentication dataset based on passive avatar kinematics
-  in an immersive virtual environment.
-</p>
-
-<!------------------------------------------------------------------------------>
-
+An anonymized behavioral authentication dataset based on **passive avatar** kinematics in a **metaverse** environment.
 
 
 ## Overview
