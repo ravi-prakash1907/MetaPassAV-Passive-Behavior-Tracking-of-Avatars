@@ -64,9 +64,9 @@ This repository provides an anonymized behavioral authentication dataset collect
 > 3. Run the notebooks in order:
 >    - `1 Data Preparation.ipynb`
 >    - `2 EDA and Split.ipynb`
-> 4. The exported data will be available in the `src/data` folder.
+> 4. The exported data will be available in the `src/data/raw_split` folder.
 
-The final dataset is available in the `src/data` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 12,980 sliding windows of 44 seconds each, sampled every second. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.
+The final dataset is available in the `src/data/raw_split` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 12,980 sliding windows of 44 seconds each, sampled every second. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.
 
 ## Citation
 
