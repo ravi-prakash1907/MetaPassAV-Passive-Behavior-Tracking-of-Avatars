@@ -1,3 +1,62 @@
 # **MetaPassAV:** Passive Behavior Tracking of Avatars
 
-A timeseries dataset tracking the passive behavioral kinematics of avatars (AVs) in custom immersive metaverse environment.
+## Overview
+
+This repository provides an anonymized behavioral authentication dataset collected in a custom virtual art gallery using Meta Quest 2. This timeseries data was collected by tracking the passive behavioral kinematics of avatars (AVs) in custom immersive metaverse environment. The participants were seated and allowed to freely explore the virtual gallery without any assigned task. The dataset is intended for research in behavioral authentication, user identification, and related fields.  
+
+### Dataset Summary
+
+| Property | Value |
+|---|---:|
+| Participants | 16 |
+| Sessions | 123 |
+| Total Duration | 4 h 53 min |
+| Average Session Length | 2 min 23 sec |
+| Sampling Rate | 0.25 Hz |
+| Raw Features | 14 |
+| Engineered Features | 28 |
+| Sliding Windows | 12,980 |
+| Window Length | 44 s |
+| Window Stride | 1 s |
+
+## Collection
+
+- Custom Unity virtual art gallery
+- Meta Quest 2 headset
+- Seated interaction
+- Passive exploration (no assigned task)
+- Navigation via controllers
+- Natural head movement recorded
+- One sample every 4 seconds plus image-view events
+
+## Repository
+
+```
+.
+├── README.md
+├── MetaPassAV-v1.pdf
+└── src/
+    ├── 1 Data Preparation.ipynb
+    ├── 2 EDA and Split.ipynb
+    ├── data/
+    └── scripts/
+```
+
+## Steps to Reproduce
+
+> 1. Clone the repository
+> 2. Navigate to the `src` folder
+> 3. Run the notebooks in order:
+>    - `1 Data Preparation.ipynb`
+>    - `2 EDA and Split.ipynb`
+> 4. The exported data will be available in the `src/data` folder.
+
+The final dataset is available in the `src/data` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 12,980 sliding windows of 44 seconds each, sampled every second. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.
+
+## Citation
+
+Please cite the accompanying publication if this dataset is used.
+
+## License
+
+To be added with public release.
