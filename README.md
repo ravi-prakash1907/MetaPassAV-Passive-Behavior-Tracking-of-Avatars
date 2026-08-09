@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  An anonymized behavioral authentication dataset based on passive avatar kinematics
-  in an immersive virtual environment.
+  An anonymized behavioral authentication dataset based on **passive avatar** kinematics
+  in a **metaverse** environment.
 </p>
 
 <!------------------------------------------------------------------------------>
