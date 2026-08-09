@@ -3,7 +3,7 @@
 <!------------------------------------------------------------------------------>
 
 <p align="center">
-  <img src="metapassav_logo.svg" alt="MetaPassAV Logo" width="850">
+  <img src="./assets/metapassav_logo.svg" alt="MetaPassAV Logo" width="850">
 </p>
 
 <p align="center">
@@ -74,4 +74,8 @@ Please cite the accompanying publication if this dataset is used.
 
 ## License
 
-To be added with public release.
+This dataset is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
+
+You are free to share and adapt the dataset for any purpose, provided appropriate attribution is given.
+
+See the [LICENSE](LICENSE) file for complete details.
