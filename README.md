@@ -93,6 +93,8 @@ While using this dataset or the proposed model, please cite the following accomp
 }
 ```
 
+For detailed reference for this dataset and code repository, the citation can be found in the [`CITATION.cff`](./CITATION.cff) file.
+
 ## License
 
 This dataset is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
