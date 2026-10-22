@@ -66,11 +66,26 @@ This repository provides an anonymized behavioral authentication dataset collect
 >    - `2 EDA and Split.ipynb`
 > 4. The exported data will be available in the `src/data/raw_split` folder.
 
-The final dataset is available in the `src/data/raw_split` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 16,291 sliding windows of 44 seconds each, sampled every 2 seconds. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.
+The final dataset is available in the `src/data/raw_split` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 16,291 sliding windows of 44 seconds each, sampled every 2 seconds. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.  
+
+> _The final dataset can be used for developoing the proposed template-based deep-UBM inspired behavioral authentication model, as described in the paper. The core code and implementation of the model is available in the [`UnifiedAVDTAuth`](./UnifiedAVDTAuth/) directory._  
 
 ## Citation
 
-Please cite the accompanying publication if this dataset is used.
+While using this dataset or the proposed model, please cite the following accompanying publication titled _"A Unified Framework for Behavior-Based Identification and Authentication of Avatars and Digital Twins"_:
+
+```tex
+@article{PRAKASH2026116714,
+ title={A unified framework for behavior-based identification and authentication of avatars and digital twins},
+ journal={Applied Soft Computing},
+ pages={116714},
+ year={2026},
+ issn={1568-4946},
+ doi={https://doi.org/10.1016/j.asoc.2026.116714},
+ url={https://www.sciencedirect.com/science/article/pii/S1568494626021629},
+ author={Ravi Prakash and Tony Thomas},
+}
+```
 
 ## License
 
