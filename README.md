@@ -50,25 +50,31 @@ This repository provides an anonymized behavioral authentication dataset collect
 .
 ├── README.md
 ├── MetaPassAV-v1.pdf
-└── src/
-    ├── 1 Data Preparation.ipynb
-    ├── 2 EDA and Split.ipynb
-    ├── data/
-    └── scripts/
+├── DataPrep/
+|   ├── 1 Data Preparation.ipynb
+|   ├── 2 EDA and Split.ipynb
+|   ├── data/
+|   └── scripts/
+└── UnifiedAVDTAuth/
+    ├── README.md
+    └── unifiedAuthFramework/
+        ├── 01_KAN_AE.ipynb
+        ├── 02_BiGRU_Classifier.ipynb
+        └── 03_UBM_Template_Auth.ipynb
 ```
 
 ## Steps to Reproduce
 
 > 1. Clone the repository
-> 2. Navigate to the `src` folder
+> 2. Navigate to the `DataPrep` folder
 > 3. Run the notebooks in order:
 >    - `1 Data Preparation.ipynb`
 >    - `2 EDA and Split.ipynb`
-> 4. The exported data will be available in the `src/data/raw_split` folder.
+> 4. The exported data will be available in the `DataPrep/data/raw_split` folder.
 
-The final dataset is available in the `src/data/raw_split` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 16,291 sliding windows of 44 seconds each, sampled every 2 seconds. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.  
+The final dataset is available in the `DataPrep/data/raw_split` folder as a CSV file. The dataset contains 14 raw features and 28 engineered features, with a total of 16,291 sliding windows of 44 seconds each, sampled every 2 seconds. It also consits of 2 identifiers (`UserID` and `SampleID`) for each sliding window, make complete column count as 30.  
 
-> _The final dataset can be used for developoing the proposed template-based deep-UBM inspired behavioral authentication model, as described in the paper. The core code and implementation of the model is available in the [`UnifiedAVDTAuth`](./UnifiedAVDTAuth/) directory._  
+> _The final dataset can be used for developoing the proposed template-based deep-UBM inspired behavioral authentication model, as described in the paper ([DOI](https://doi.org/10.1016/j.asoc.2026.116714)). The core code and implementation of the model is available in the [`UnifiedAVDTAuth`](./UnifiedAVDTAuth/) directory._  
 
 ## Citation
 
