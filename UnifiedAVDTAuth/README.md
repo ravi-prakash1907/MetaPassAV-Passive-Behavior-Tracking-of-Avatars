@@ -20,5 +20,5 @@ To setup and test the proposed framework, run the files in the following order:
 4. **Enroll and test authentication.** Run `03_UBM_Template_Auth.ipynb` after the BiGRU model and encoded data have been exported. The notebook creates one prototype/template per enrolled user, tunes the verification threshold on development data, and evaluates the held-out authentication test data.
 
 
-_**NOTE:** Results are written below the configured experiment output directory. The export includes templates/prototypes, trial scores, summary and per-user metrics, threshold/configuration JSON files, ROC and enrollment-size arrays, and ROC/enrollment-size plots._ 
+_**NOTE:** Results are written into the configured experiment output directory. The export includes templates/prototypes, trial scores, summary and per-user metrics, threshold/configuration JSON files, ROC and enrollment-size arrays, and ROC/enrollment-size plots._ 
 
